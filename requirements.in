@@ -11,7 +11,7 @@ ipywidgets
 
 ### Core Frameworks
 # Install ColBERT in editable mode. Its own requirements.txt will be used.
--e ./ColBERT
+#-e ./ColBERT
 llama-index>=0.10.0
 
 ### LlamaIndex & Gemini & Qdrant
