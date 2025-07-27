@@ -3,7 +3,7 @@
 
 ### Core Dependencies & Constraints
 # Pin NumPy to a version before 2.0 to ensure compatibility with faiss
-numpy==2.0
+numpy>2.0
 # Require a modern PyTorch for transformers, llama-index, and local ColBERT
 torch>=2.1
 # Fixes the TqdmWarning for progress bars in notebooks
