@@ -28,7 +28,7 @@ llama-index-llms-ollama
 ### Hugging Face
 # Use -U to ensure the latest version, and [vision] for multimodal support
 # TODO: modify this to make it compatible
--U datasets datasets[vision]
+#-U datasets datasets[vision]
 
 ### Image Processing
 Pillow
