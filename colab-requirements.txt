@@ -309,7 +309,7 @@ librmm-cu12==25.6.0
 librosa==0.11.0
 libucx-cu12==1.18.1
 libucxx-cu12==0.44.0
-lightgbm @ file:///tmp/lightgbm/LightGBM/dist/lightgbm-4.6.0-py3-none-linux_x86_64.whl
+#lightgbm @ file:///tmp/lightgbm/LightGBM/dist/lightgbm-4.6.0-py3-none-linux_x86_64.whl
 linkify-it-py==2.0.3
 llama-cloud==0.1.32
 llama-cloud-services==0.6.43
