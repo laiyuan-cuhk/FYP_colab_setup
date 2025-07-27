@@ -175,7 +175,7 @@ google-cloud-resource-manager==1.14.2
 google-cloud-spanner==3.55.0
 google-cloud-storage==2.19.0
 google-cloud-translate==3.21.1
-#google-colab @ file:///colabtools/dist/google_colab-1.0.0.tar.gz
+google-colab @ file:///colabtools/dist/google_colab-1.0.0.tar.gz
 google-crc32c==1.7.1
 google-genai==1.27.0
 google-generativeai==0.8.5
@@ -268,7 +268,7 @@ jupyter-console==6.1.0
 jupyter-events==0.12.0
 jupyter-leaflet==0.20.0
 jupyter-lsp==2.2.6
-#jupyter_client==8.6.3
+jupyter_client==8.6.3
 jupyter_core==5.8.1
 jupyter_kernel_gateway @ git+https://github.com/googlecolab/kernel_gateway@b134e9945df25c2dcb98ade9129399be10788671
 jupyter_server==2.16.0
@@ -309,7 +309,7 @@ librmm-cu12==25.6.0
 librosa==0.11.0
 libucx-cu12==1.18.1
 libucxx-cu12==0.44.0
-#lightgbm @ file:///tmp/lightgbm/LightGBM/dist/lightgbm-4.6.0-py3-none-linux_x86_64.whl
+lightgbm @ file:///tmp/lightgbm/LightGBM/dist/lightgbm-4.6.0-py3-none-linux_x86_64.whl
 linkify-it-py==2.0.3
 llama-cloud==0.1.32
 llama-cloud-services==0.6.43
