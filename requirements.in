@@ -1,0 +1,51 @@
+# This file lists the direct dependencies of our project.
+# Run 'uv pip compile requirements.in -o requirements.txt' to update the lock file.
+
+### Core Dependencies & Constraints
+# Pin NumPy to a version before 2.0 to ensure compatibility with faiss
+numpy<2.0
+# Require a modern PyTorch for transformers, llama-index, and local ColBERT
+torch>=2.1
+# Fixes the TqdmWarning for progress bars in notebooks
+ipywidgets
+
+### Core Frameworks
+# Install ColBERT in editable mode. Its own requirements.txt will be used.
+-e ./ColBERT
+llama-index>=0.10.0
+
+### LlamaIndex & Gemini & Qdrant
+llama-index-multi-modal-llms-gemini
+llama-index-vector-stores-qdrant
+llama-index-embeddings-gemini
+llama-index-llms-gemini
+google-generativeai>=0.3.0
+qdrant_client
+
+### Local LLM (Ollama)
+llama-index-llms-ollama
+
+### Hugging Face
+# Use -U to ensure the latest version, and [vision] for multimodal support
+# TODO: modify this to make it compatible
+-U datasets datasets[vision]
+
+### Image Processing
+Pillow
+
+### Utilities & Development Tools
+gitpython
+ninja
+scipy
+spacy
+tqdm
+transformers
+ujson
+flask
+python-dotenv
+matplotlib
+pandas
+gdown
+shortuuid
+jupyterlab
+nbstripout
