@@ -3,11 +3,11 @@
 
 ### Core Dependencies & Constraints
 # Pin NumPy to a version before 2.0 to ensure compatibility with faiss
-numpy>2.0
+#numpy==2.0.2
 # Require a modern PyTorch for transformers, llama-index, and local ColBERT
-torch>=2.1
+#torch>=2.1
 # Fixes the TqdmWarning for progress bars in notebooks
-ipywidgets
+#ipywidgets
 
 ### Core Frameworks
 # Install ColBERT in editable mode. Its own requirements.txt will be used.
